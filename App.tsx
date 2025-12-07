@@ -335,7 +335,7 @@ echo "All SIPp instances started. Your Mac should now be sweating. 🔥"`;
           <div className="mt-6 space-y-2">
             <div className="relative group rounded-lg overflow-hidden border border-slate-700 bg-slate-900">
                 <img 
-                    src="dos_utok.jpg" 
+                    src="/dos_utok.jpg" 
                     onError={(e) => {
                        e.currentTarget.src = "https://picsum.photos/800/400?grayscale&blur=2";
                        e.currentTarget.alt = "Nenájdený obrázok: Premenujte Váš screenshot terminálu (DoS) na 'dos_utok.png'";
@@ -402,7 +402,7 @@ echo "All SIPp instances started. Your Mac should now be sweating. 🔥"`;
 
           <div className="mt-6 relative group rounded-lg overflow-hidden border border-slate-700 bg-slate-900">
              <img 
-                src="xml_utok.jpg" 
+                src="/xml_utok.jpg" 
                 onError={(e) => {
                     e.currentTarget.src = "https://picsum.photos/800/401?grayscale&blur=2";
                     e.currentTarget.alt = "Nenájdený obrázok: Premenujte Váš screenshot s XML útokom na 'xml_utok.png'";
@@ -473,7 +473,7 @@ echo "All SIPp instances started. Your Mac should now be sweating. 🔥"`;
              <div className="space-y-4">
                 <div className="relative group rounded-lg overflow-hidden border border-amber-900/40 shadow-xl shadow-black/50 bg-slate-900">
                     <img 
-                        src="cpu_stress_test.png" 
+                        src="/cpu_stress_test.png" 
                         onError={(e) => {
                           e.currentTarget.src = "https://picsum.photos/600/500?grayscale&blur=2"; 
                           e.currentTarget.alt = "Nenájdený obrázok: Premenujte Váš screenshot z Activity Monitora na 'cpu_stress_test.png'";

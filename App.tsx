@@ -420,7 +420,7 @@ echo "All SIPp instances started. Your Mac should now be sweating. 🔥"`;
         <Section id="performance" title="B3. Hardvérová analýza a limity" icon={<Cpu />} variant="warning" subtitle="Apple Silicon M4 Pro Analysis">
           <p>
             Na účely overenia výkonnosti SIP servera a identifikácie jeho limitov bola vykonaná záťažová skúška na zariadení 
-            <strong className="text-white"> MacBook Pro M4 Pro</strong>. 
+            <strong className="text-white"> MacBook M4 Pro</strong>. 
             Cieľom bolo simulovať vysoký počet paralelných SIP hovorov v krátkom časovom intervale a sledovať správanie systému pri extrémnom zaťažení.
           </p>
 
